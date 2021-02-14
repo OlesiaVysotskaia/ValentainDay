@@ -17,7 +17,7 @@ p {
   bottom: 15%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 
 .image {
@@ -28,6 +28,23 @@ p {
   margin: 0 auto;
   margin-top: 25%;
   transform: rotate(90deg);
+}
+
+.frog {
+  animation: imagerotation 2s linear infinite alternate-reverse;
+}
+
+@keyframes imagerotation {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+}
+100% {
+    transform: perspective(1000px) rotateY(360deg);
+}
+}
+
+.hiddentext {
+  display: none;
 }
 
 .border1 {
