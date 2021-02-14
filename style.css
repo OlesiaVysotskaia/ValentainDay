@@ -1,0 +1,39 @@
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 100px;
+  position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+p {
+  font-size: 50px;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(121, 201, 119);
+  display: block;
+  margin: 0 auto;
+  margin-top: 25%;
+  transform: rotate(90deg);
+}
+
+.border1 {
+  display: none;
+}
+
+.border2 {
+  display: none;
+}
